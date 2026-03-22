@@ -1,0 +1,1 @@
+"""FastAPI Application Entry Point"""
