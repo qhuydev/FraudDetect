@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: frauddetect-config
+  namespace: frauddetect
+data:
+  LOG_LEVEL: "INFO"
+  ENVIRONMENT: "production"
+  MODEL_PATH: "/models"
+  BATCH_SIZE: "32"
+  INFERENCE_TIMEOUT: "5000"
